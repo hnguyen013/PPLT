@@ -41,9 +41,9 @@ def hien_thi_nhan_vien(danh_sach_nv):
     print(bang)
     
 danh_sach_nv = [
-    NhanVienFullTime("FT01", "Nguyen Van A", 15000000),
-    NhanVienPartTime("PT01", "Tran Thi B", 80, 50000),
-    NhanVienFullTime("FT02", "Le Van C", 12000000),
-    NhanVienPartTime("PT02", "Pham Thi D", 60, 40000)
+    NhanVienFullTime("FT01", "Nguyen Van", 15000000),
+    NhanVienPartTime("PT01", "Tran Thi", 80, 50000),
+    NhanVienFullTime("FT02", "Le Van", 12000000),
+    NhanVienPartTime("PT02", "Pham Thi", 60, 40000)
 ]
 hien_thi_nhan_vien(danh_sach_nv)
